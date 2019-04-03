@@ -38,7 +38,7 @@ export class Signature extends React.PureComponent<SignatureProps> {
         return < SizeContainer
             {...this.props}
             className={classNames("widget-signature", className)}
-            classNameInner="widget-signature-wrapper form-control mx-textarea-input mx-textarea"
+            classNameInner="widget-signature-wrapper mx-textarea-input mx-textarea"
             style={wrapperStyle}
         >
             <Alert bootstrapStyle = "danger">{alertMessage}</Alert>
